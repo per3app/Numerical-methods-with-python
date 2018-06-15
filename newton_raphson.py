@@ -3,10 +3,11 @@ import numpy as np
 
 n=8             #limite del eje x
 X=np.zeros((n))     #vector vacio del eje x
-Y=np.zeros((n))
+
 F=np.zeros((n))
 DF=np.zeros((n))
 Er=np.zeros((n))
+
 print('-----------------------------')
 print('    X           Error')
 for i in range(n-1):
