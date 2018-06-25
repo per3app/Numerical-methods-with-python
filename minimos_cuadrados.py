@@ -34,5 +34,5 @@ plt.ylabel('Eje Y')
 plt.plot(X,Y,'r')
 plt.plot(X,Ya,'k+')
 plt.legend(['Datos','Datos ajustados'])
-plt.savefig('D:/minimos_cuadrados.png')
+plt.savefig('minimos_cuadrados.png')
 
